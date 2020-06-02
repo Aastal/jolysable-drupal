@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * The module file for jolysable pages module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+use Drupal\file\Entity\File;
+use Drupal\Core\Controller\ControllerBase;
+
+/**
+ * Implements hook_theme_registry_alter
+ *
+ * {@inheritdoc}
+ */
+function jolysable_theme_registry_alter(&$theme_registry) {
+
+}

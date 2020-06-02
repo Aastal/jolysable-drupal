@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jolysable_theme
+_core:
+  default_config_hash: gbD2-sPon8wyH_EhrCDOB-hhmjhWr1AoMxowKPzfcF0
+id: jolysable_theme_powered
+theme: jolysable_theme
+region: footer_first
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,6 @@
+services:
+  jolysable.exception403.subscriber:
+    class: Drupal\jolysable\EventSubscriber\RedirectOn403Subscriber
+    tags:
+      - { name: event_subscriber }
+    arguments: ['@current_user']

@@ -1,0 +1,5 @@
+name: Jolysable
+type: module
+package: Jolysable
+description: 'Custom drupal to manage Jolysable website API.'
+core: 8.x
